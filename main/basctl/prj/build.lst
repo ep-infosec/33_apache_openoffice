@@ -1,0 +1,2 @@
+bc	basctl	: LIBXSLT:libxslt L10N:l10n svx NULL
+bc	basctl\prj								nmake	-	all	bc_prj NULL

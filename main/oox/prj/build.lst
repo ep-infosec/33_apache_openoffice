@@ -1,0 +1,2 @@
+oox	oox : vos cppu cppuhelper comphelper sal offapi sax basegfx xmlscript tools vcl BOOST:boost OPENSSL:openssl LIBXSLT:libxslt NULL
+oox	oox\prj	nmake	-   all	oox_prj NULL

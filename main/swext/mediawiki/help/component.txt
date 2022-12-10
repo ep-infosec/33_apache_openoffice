@@ -1,0 +1,1 @@
+The @WIKIEXTENSIONPRODUCTNAME@ enables you to create Wiki articles on MediaWiki servers without having to know the syntax of the MediaWiki markup language. Publish new and existing documents transparently with Writer to a wiki page.

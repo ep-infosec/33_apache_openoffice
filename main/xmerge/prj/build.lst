@@ -1,0 +1,2 @@
+xmrg xmerge : solenv unoil javaunohelper LIBXSLT:libxslt NULL
+xmrg xmerge\prj                    nmake - all xmrg_prj NULL

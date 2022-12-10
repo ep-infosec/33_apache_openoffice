@@ -1,0 +1,2 @@
+br	bridges	:	cppuhelper jurt jvmaccess salhelper NULL
+br	bridges\prj								nmake	-	all	br_prj NULL

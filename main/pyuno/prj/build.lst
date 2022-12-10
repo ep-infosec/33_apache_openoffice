@@ -1,0 +1,2 @@
+bgpu	pyuno	:	stoc cpputools cppuhelper bridges tools PYTHON:python LIBXSLT:libxslt NULL
+pu	pyuno\prj	nmake	-	all	pu_prj NULL

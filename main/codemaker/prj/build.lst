@@ -1,0 +1,2 @@
+cm	codemaker	:	registry NULL
+cm	codemaker\prj								nmake	-	all	cm_mkout NULL

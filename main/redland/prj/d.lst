@@ -1,0 +1,19 @@
+mkdir: %_DEST%\inc%_EXT%\external
+..\%__SRC%\inc\*.h %_DEST%\inc%_EXT%\external\*.h
+..\%__SRC%\lib\libraptor2.so.0 %_DEST%\lib%_EXT%\libraptor2.so.0
+symlink: %_DEST%\lib%_EXT%\libraptor2.so.0 %_DEST%\lib%_EXT%\libraptor2.so
+..\%__SRC%\lib\libraptor2.0.dylib %_DEST%\lib%_EXT%\libraptor2.0.dylib
+symlink: %_DEST%\lib%_EXT%\libraptor2.0.dylib %_DEST%\lib%_EXT%\libraptor2.dylib
+..\%__SRC%\lib\librasqal.so.3 %_DEST%\lib%_EXT%\librasqal.so.3
+symlink: %_DEST%\lib%_EXT%\librasqal.so.3 %_DEST%\lib%_EXT%\librasqal.so
+..\%__SRC%\lib\librasqal.3.dylib %_DEST%\lib%_EXT%\librasqal.3.dylib
+symlink: %_DEST%\lib%_EXT%\librasqal.3.dylib %_DEST%\lib%_EXT%\librasqal.dylib
+..\%__SRC%\lib\librdf.so.0 %_DEST%\lib%_EXT%\librdf.so.0
+symlink: %_DEST%\lib%_EXT%\librdf.so.0 %_DEST%\lib%_EXT%\librdf.so
+..\%__SRC%\lib\librdf.0.dylib %_DEST%\lib%_EXT%\librdf.0.dylib
+symlink: %_DEST%\lib%_EXT%\librdf.0.dylib %_DEST%\lib%_EXT%\librdf.dylib
+..\%__SRC%\lib\*.lib %_DEST%\lib%_EXT%
+..\%__SRC%\lib\*.a %_DEST%\lib%_EXT%
+..\%__SRC%\lib\lib*.dll.a %_DEST%\lib%_EXT%\lib*.a
+..\%__SRC%\bin\*.dll %_DEST%\bin%_EXT%
+..\redlandversion.mk %_DEST%\inc%_EXT%\redlandversion.mk

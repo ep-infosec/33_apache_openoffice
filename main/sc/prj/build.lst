@@ -1,0 +1,2 @@
+sc      sc      :       filter L10N:l10n vbahelper oovbaapi svx uui stoc BOOST:boost formula MDDS:mdds oox LIBXSLT:libxslt NULL
+sc	sc\prj							nmake	-	all	sc_prj NULL

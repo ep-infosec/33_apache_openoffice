@@ -1,0 +1,2 @@
+pk	package	:	cppu cppuhelper comphelper ucbhelper sal sax ZLIB:zlib LIBXSLT:libxslt NULL
+pk	package\prj								nmake	-	all	pk_prj NULL

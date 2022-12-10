@@ -1,0 +1,2 @@
+rd  reportdesign    :   L10N:l10n BOOST:boost comphelper dbaccess formula LIBXSLT:libxslt NULL
+rd  reportdesign\prj nmake - all rd_prj   NULL

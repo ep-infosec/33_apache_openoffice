@@ -1,0 +1,2 @@
+cu	cui	: svx sax sot NULL
+cu	cui\prj									nmake	-	all	cui_prj NULL

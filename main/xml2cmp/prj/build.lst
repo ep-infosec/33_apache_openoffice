@@ -1,0 +1,2 @@
+xc  xml2cmp : soltools stlport NULL
+xc  xml2cmp\prj                     nmake -	all	xc_prj NULL

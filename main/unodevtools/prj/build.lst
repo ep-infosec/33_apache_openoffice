@@ -1,0 +1,4 @@
+udt	unodevtools	:	codemaker cppuhelper NULL
+udt	unodevtools\prj						nmake	-	all	udt_prj NULL
+
+

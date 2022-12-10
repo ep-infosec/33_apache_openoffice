@@ -1,0 +1,2 @@
+tw	twain	:	solenv NULL
+tw  twain\prj nmake - n tw_prj NULL

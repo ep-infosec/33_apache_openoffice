@@ -1,0 +1,2 @@
+xh      xmlhelp :       comphelper ucbhelper LIBXSLT:libxslt unoil LUCENE:lucene javaunohelper l10ntools NULL
+xh	xmlhelp\prj								nmake	-	all	xh_prj NULL

@@ -1,0 +1,2 @@
+jh  javaunohelper : LIBXSLT:libxslt bridges cppuhelper jurt ridljar unoil NULL
+jh	javaunohelper\prj							nmake	-	all	jh_prj NULL

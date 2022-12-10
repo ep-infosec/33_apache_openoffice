@@ -1,0 +1,2 @@
+dr	dtrans	:	unotools offapi offapi rdbmaker vos stoc LIBXSLT:libxslt NULL
+dr	dtrans\prj								nmake	-	all	dr_prj NULL

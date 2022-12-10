@@ -1,0 +1,2 @@
+pt	cpputools	:	cppuhelper offapi LIBXML2:libxml2 NULL
+pt	cpputools\prj							nmake		-	all	pt_prj NULL

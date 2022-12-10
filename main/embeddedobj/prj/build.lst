@@ -1,0 +1,2 @@
+eo	embeddedobj	:	offapi sal cppu cppuhelper comphelper tools unotools vos LIBXSLT:libxslt NULL
+eo	embeddedobj\prj									nmake	-	all	eo_prj NULL

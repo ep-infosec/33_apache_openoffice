@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***********************************************************
+ * 
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ * 
+ ***********************************************************-->
+
+
+<!DOCTYPE oor:component-data SYSTEM "../../../../component-update.dtd">
+<oor:component-data oor:name="Security" oor:package="org.openoffice.Office" xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<node oor:name="SecureExtensions">
+		<node oor:name="m1" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxw</value>
+			</prop>
+		</node>
+		<node oor:name="m2" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxc</value>
+			</prop>
+		</node>
+		<node oor:name="m3" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxd</value>
+			</prop>
+		</node>
+		<node oor:name="m4" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxi</value>
+			</prop>
+		</node>
+		<node oor:name="m5" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxm</value>
+			</prop>
+		</node>
+		<node oor:name="m6" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxg</value>
+			</prop>
+		</node>
+		<node oor:name="m7" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sxp</value>
+			</prop>
+		</node>
+		<node oor:name="m8" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>stw</value>
+			</prop>
+		</node>
+		<node oor:name="m9" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>stc</value>
+			</prop>
+		</node>
+		<node oor:name="m10" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>std</value>
+			</prop>
+		</node>
+		<node oor:name="m11" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sti</value>
+			</prop>
+		</node>
+		<node oor:name="m12" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sdw</value>
+			</prop>
+		</node>
+		<node oor:name="m13" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sdc</value>
+			</prop>
+		</node>
+		<node oor:name="m14" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sda</value>
+			</prop>
+		</node>
+		<node oor:name="m15" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sdd</value>
+			</prop>
+		</node>
+		<node oor:name="m16" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>smf</value>
+			</prop>
+		</node>
+		<node oor:name="m17" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sds</value>
+			</prop>
+		</node>
+		<node oor:name="m18" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sgl</value>
+			</prop>
+		</node>
+		<node oor:name="m19" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sdp</value>
+			</prop>
+		</node>
+		<node oor:name="m20" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>vor</value>
+			</prop>
+		</node>
+		<node oor:name="m21" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>doc</value>
+			</prop>
+		</node>
+		<node oor:name="m22" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dot</value>
+			</prop>
+		</node>
+		<node oor:name="m23" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ppt</value>
+			</prop>
+		</node>
+		<node oor:name="m24" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pot</value>
+			</prop>
+		</node>
+		<node oor:name="m25" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xls</value>
+			</prop>
+		</node>
+		<node oor:name="m26" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlw</value>
+			</prop>
+		</node>
+		<node oor:name="m27" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlt</value>
+			</prop>
+		</node>
+		<node oor:name="m28" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dif</value>
+			</prop>
+		</node>
+		<node oor:name="m29" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dbf</value>
+			</prop>
+		</node>
+		<node oor:name="m30" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>rtf</value>
+			</prop>
+		</node>
+		<node oor:name="m31" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>txt</value>
+			</prop>
+		</node>
+		<node oor:name="m32" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>text</value>
+			</prop>
+		</node>
+		<node oor:name="m33" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>csv</value>
+			</prop>
+		</node>
+		<node oor:name="m34" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pdf</value>
+			</prop>
+		</node>
+		<node oor:name="m35" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>fdf</value>
+			</prop>
+		</node>
+		<node oor:name="m36" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>html</value>
+			</prop>
+		</node>
+		<node oor:name="m37" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>htm</value>
+			</prop>
+		</node>
+		<node oor:name="m38" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>shtml</value>
+			</prop>
+		</node>
+		<node oor:name="m39" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xml</value>
+			</prop>
+		</node>
+		<node oor:name="m40" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xhtml</value>
+			</prop>
+		</node>
+		<node oor:name="m41" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>bmp</value>
+			</prop>
+		</node>
+		<node oor:name="m42" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>gif</value>
+			</prop>
+		</node>
+		<node oor:name="m43" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>jpg</value>
+			</prop>
+		</node>
+		<node oor:name="m44" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pbm</value>
+			</prop>
+		</node>
+		<node oor:name="m45" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pcd</value>
+			</prop>
+		</node>
+		<node oor:name="m46" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pcx</value>
+			</prop>
+		</node>
+		<node oor:name="m47" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pbm</value>
+			</prop>
+		</node>
+		<node oor:name="m48" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pcd</value>
+			</prop>
+		</node>
+		<node oor:name="m49" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>heif</value>
+			</prop>
+		</node>
+		<node oor:name="m50" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pgm</value>
+			</prop>
+		</node>
+		<node oor:name="m51" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>png</value>
+			</prop>
+		</node>
+		<node oor:name="m52" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ppm</value>
+			</prop>
+		</node>
+		<node oor:name="m53" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>psd</value>
+			</prop>
+		</node>
+		<node oor:name="m54" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ras</value>
+			</prop>
+		</node>
+		<node oor:name="m55" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>tga</value>
+			</prop>
+		</node>
+		<node oor:name="m56" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>tif</value>
+			</prop>
+		</node>
+		<node oor:name="m57" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xbm</value>
+			</prop>
+		</node>
+		<node oor:name="m58" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xpm</value>
+			</prop>
+		</node>
+		<node oor:name="m59" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>cgm</value>
+			</prop>
+		</node>
+		<node oor:name="m60" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dxf</value>
+			</prop>
+		</node>
+		<node oor:name="m61" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>emf</value>
+			</prop>
+		</node>
+		<node oor:name="m62" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>eps</value>
+			</prop>
+		</node>
+		<node oor:name="m63" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>met</value>
+			</prop>
+		</node>
+		<node oor:name="m64" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pct</value>
+			</prop>
+		</node>
+		<node oor:name="m65" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>wmf</value>
+			</prop>
+		</node>
+		<node oor:name="m66" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>aif</value>
+			</prop>
+		</node>
+		<node oor:name="m67" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>aifc</value>
+			</prop>
+		</node>
+		<node oor:name="m68" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>au</value>
+			</prop>
+		</node>
+		<node oor:name="m69" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>m1a</value>
+			</prop>
+		</node>
+		<node oor:name="m70" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mid</value>
+			</prop>
+		</node>
+		<node oor:name="m71" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>midi</value>
+			</prop>
+		</node>
+		<node oor:name="m72" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mp2</value>
+			</prop>
+		</node>
+		<node oor:name="m73" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mp3</value>
+			</prop>
+		</node>
+		<node oor:name="m74" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mpa</value>
+			</prop>
+		</node>
+		<node oor:name="m75" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ra</value>
+			</prop>
+		</node>
+		<node oor:name="m76" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ram</value>
+			</prop>
+		</node>
+		<node oor:name="m77" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>rm</value>
+			</prop>
+		</node>
+		<node oor:name="m78" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>wav</value>
+			</prop>
+		</node>
+		<node oor:name="m79" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>asf</value>
+			</prop>
+		</node>
+		<node oor:name="m80" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>asx</value>
+			</prop>
+		</node>
+		<node oor:name="m81" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>avi</value>
+			</prop>
+		</node>
+		<node oor:name="m82" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>moov</value>
+			</prop>
+		</node>
+		<node oor:name="m83" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mov</value>
+			</prop>
+		</node>
+		<node oor:name="m84" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>movie</value>
+			</prop>
+		</node>
+		<node oor:name="m85" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mpe</value>
+			</prop>
+		</node>
+		<node oor:name="m86" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mpeg</value>
+			</prop>
+		</node>
+		<node oor:name="m87" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mpg</value>
+			</prop>
+		</node>
+		<node oor:name="m88" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>qt</value>
+			</prop>
+		</node>
+		<node oor:name="m89" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xhp</value>
+			</prop>
+		</node>
+		<node oor:name="m90" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xhp</value>
+			</prop>
+		</node>
+		<node oor:name="m91" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>odt</value>
+			</prop>
+		</node>
+		<node oor:name="m92" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ott</value>
+			</prop>
+		</node>
+		<node oor:name="m93" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pdb</value>
+			</prop>
+		</node>
+		<node oor:name="m94" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>docx</value>
+			</prop>
+		</node>
+		<node oor:name="m95" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>docm</value>
+			</prop>
+		</node>
+		<node oor:name="m96" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dotx</value>
+			</prop>
+		</node>
+		<node oor:name="m97" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dotm</value>
+			</prop>
+		</node>
+		<node oor:name="m98" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>uot</value>
+			</prop>
+		</node>
+		<node oor:name="m99" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>psw</value>
+			</prop>
+		</node>
+		<node oor:name="m100" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>602</value>
+			</prop>
+		</node>
+		<node oor:name="m101" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>uof</value>
+			</prop>
+		</node>
+		<node oor:name="m102" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ods</value>
+			</prop>
+		</node>
+		<node oor:name="m103" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ots</value>
+			</prop>
+		</node>
+		<node oor:name="m104" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlc</value>
+			</prop>
+		</node>
+		<node oor:name="m105" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlm</value>
+			</prop>
+		</node>
+		<node oor:name="m106" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>slk</value>
+			</prop>
+		</node>
+		<node oor:name="m107" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlsb</value>
+			</prop>
+		</node>
+		<node oor:name="m108" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlsm</value>
+			</prop>
+		</node>
+		<node oor:name="m109" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xlsx</value>
+			</prop>
+		</node>
+		<node oor:name="m110" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xltm</value>
+			</prop>
+		</node>
+		<node oor:name="m111" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>xltx</value>
+			</prop>
+		</node>
+		<node oor:name="m112" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>wk1</value>
+			</prop>
+		</node>
+		<node oor:name="m113" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>wks</value>
+			</prop>
+		</node>
+		<node oor:name="m114" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>123</value>
+			</prop>
+		</node>
+		<node oor:name="m115" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>uos</value>
+			</prop>
+		</node>
+		<node oor:name="m116" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pxl</value>
+			</prop>
+		</node>
+		<node oor:name="m117" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>wb2</value>
+			</prop>
+		</node>
+		<node oor:name="m118" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>odp</value>
+			</prop>
+		</node>
+		<node oor:name="m119" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>otp</value>
+			</prop>
+		</node>
+		<node oor:name="m120" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pps</value>
+			</prop>
+		</node>
+		<node oor:name="m121" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pptm</value>
+			</prop>
+		</node>
+		<node oor:name="m122" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pptx</value>
+			</prop>
+		</node>
+		<node oor:name="m123" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>potm</value>
+			</prop>
+		</node>
+		<node oor:name="m124" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>potx</value>
+			</prop>
+		</node>
+		<node oor:name="m125" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>uop</value>
+			</prop>
+		</node>
+		<node oor:name="m126" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>odg</value>
+			</prop>
+		</node>
+		<node oor:name="m127" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>otg</value>
+			</prop>
+		</node>
+		<node oor:name="m128" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>pict</value>
+			</prop>
+		</node>
+		<node oor:name="m129" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sgf</value>
+			</prop>
+		</node>
+		<node oor:name="m130" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>sgv</value>
+			</prop>
+		</node>
+		<node oor:name="m131" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>svm</value>
+			</prop>
+		</node>
+		<node oor:name="m132" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>dib</value>
+			</prop>
+		</node>
+		<node oor:name="m133" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>jpeg</value>
+			</prop>
+		</node>
+		<node oor:name="m134" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>jfif</value>
+			</prop>
+		</node>
+		<node oor:name="m135" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>jif</value>
+			</prop>
+		</node>
+		<node oor:name="m136" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>jpe</value>
+			</prop>
+		</node>
+		<node oor:name="m137" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>svg</value>
+			</prop>
+		</node>
+		<node oor:name="m138" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>tiff</value>
+			</prop>
+		</node>
+		<node oor:name="m139" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>oth</value>
+			</prop>
+		</node>
+		<node oor:name="m140" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>odm</value>
+			</prop>
+		</node>
+		<node oor:name="m141" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>odb</value>
+			</prop>
+		</node>
+		<node oor:name="m142" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>odf</value>
+			</prop>
+		</node>
+		<node oor:name="m143" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mml</value>
+			</prop>
+		</node>
+		<node oor:name="m144" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>wpl</value>
+			</prop>
+		</node>
+		<node oor:name="m145" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>m3u</value>
+			</prop>
+		</node>
+		<node oor:name="m146" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>ogg</value>
+			</prop>
+		</node>
+		<node oor:name="m147" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>flac</value>
+			</prop>
+		</node>
+		<node oor:name="m148" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>m4a</value>
+			</prop>
+		</node>
+		<node oor:name="m149" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>mp4</value>
+			</prop>
+		</node>
+		<node oor:name="m150" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>heifs</value>
+			</prop>
+		</node>
+		<node oor:name="m151" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>heic</value>
+			</prop>
+		</node>
+		<node oor:name="m152" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>heics</value>
+			</prop>
+		</node>
+		<node oor:name="m153" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>avci</value>
+			</prop>
+		</node>
+		<node oor:name="m154" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>avcs</value>
+			</prop>
+		</node>
+		<node oor:name="m155" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>avif</value>
+			</prop>
+		</node>
+		<node oor:name="m156" oor:op="replace">
+			<prop oor:name="Extension" oor:type="xs:string">
+				<value>avifs</value>
+			</prop>
+		</node>
+	</node>
+	<node oor:name="Hyperlinks">
+		<prop oor:name="Open" oor:type="xs:int">
+			<value>1</value>
+		</prop>
+	</node>
+</oor:component-data>

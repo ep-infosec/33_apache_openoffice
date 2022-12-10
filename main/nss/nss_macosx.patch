@@ -1,0 +1,16 @@
+diff -ur misc/nss-3.39/nss/lib/sqlite/config.mk misc/build/nss-3.39/nss/lib/sqlite/config.mk
+--- misc/nss-3.39/nss/lib/sqlite/config.mk	2018-08-31 05:55:53.000000000 -0700
++++ misc/build/nss-3.39/nss/lib/sqlite/config.mk	2018-09-10 10:36:01.074375000 -0700
+@@ -35,9 +35,9 @@
+ # OSAtomicCompareAndSwapPtrBarrier, which is only available on Mac OS X 10.5
+ # (Darwin 9.0) and later. Define SQLITE_WITHOUT_ZONEMALLOC to disable
+ # that code for older versions of Mac OS X. See bug 820374.
+-DARWIN_VER_MAJOR := $(shell uname -r | cut -f1 -d.)
+-DARWIN_LT_9 := $(shell [ $(DARWIN_VER_MAJOR) -lt 9 ] && echo true)
+-ifeq ($(DARWIN_LT_9),true)
++OSX_TARGET_MINOR := $(shell echo $(MACOSX_DEPLOYMENT_TARGET) | cut -f2 -d.)
++OSX_MINOR_LT_5 := $(shell [ $(OSX_TARGET_MINOR) -lt 5 ] && echo true)
++ifeq ($(OSX_MINOR_LT_5),true)
+ OS_CFLAGS += -DSQLITE_WITHOUT_ZONEMALLOC
+ endif
+ endif # Darwin

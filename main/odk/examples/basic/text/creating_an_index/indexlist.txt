@@ -1,0 +1,7 @@
+Apache
+OpenOffice
+ASF
+license
+developer
+technology
+countries

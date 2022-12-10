@@ -1,0 +1,2 @@
+vo	vos	:	sal solenv NULL
+vo	vos\prj									nmake		-	all	vo_prj NULL

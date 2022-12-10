@@ -1,0 +1,2 @@
+sm	starmath	: LIBXSLT:libxslt L10N:l10n svx NULL
+sm	starmath\prj							nmake		-	all	sm_prj NULL

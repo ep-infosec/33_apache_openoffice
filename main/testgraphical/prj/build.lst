@@ -1,0 +1,2 @@
+gfxcmp    testgraphical     :       instsetoo_native qadevOOo NULL
+gfxcmp    testgraphical\prj                             nmake     -  all    gfxcmp_prj NULL

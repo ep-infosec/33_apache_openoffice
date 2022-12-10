@@ -1,0 +1,2 @@
+sb	basic	:    L10N:l10n offapi oovbaapi svtools xmlscript framework salhelper LIBXSLT:libxslt NULL
+sb	basic\prj								nmake	-	all	sb_prj NULL

@@ -1,0 +1,3 @@
+uo  unixODBC : solenv NULL
+uo  unixODBC\prj                         nmake    -   all     uo_prj NULL
+

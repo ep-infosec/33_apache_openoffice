@@ -1,0 +1,2 @@
+fp	fpicker	: LIBXSLT:libxslt L10N:l10n rdbmaker svtools NULL
+fp	fpicker\prj							nmake	-	all	fp_prj NULL

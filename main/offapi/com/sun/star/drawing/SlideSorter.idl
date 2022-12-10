@@ -1,0 +1,76 @@
+/**************************************************************
+ * 
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ * 
+ *************************************************************/
+
+
+
+#ifndef __com_sun_star_drawing_SlideSorter_idl__
+#define __com_sun_star_drawing_SlideSorter_idl__
+
+#ifndef __com_sun_star_drawing_framework_XView_idl__
+#include <com/sun/star/drawing/framework/XView.idl>
+#endif
+#ifndef __com_sun_star_drawing_XDrawView_idl__
+#include <com/sun/star/drawing/XDrawView.idl>
+#endif
+#ifndef __com_sun_star_awt_XWindow_idl__
+#include <com/sun/star/awt/XWindow.idl>
+#endif
+#ifndef __com_sun_star_container_XIndexAccess_idl__
+#include <com/sun/star/container/XIndexAccess.idl>
+#endif
+#ifndef __com_sun_star_frame_XController_idl__
+#include <com/sun/star/frame/XController.idl>
+#endif
+#ifndef __com_sun_star_util_Color_idl__
+#include <com/sun/star/util/Color.idl>
+#endif
+#ifndef __com_sun_star_drawing_XSlideSorterBase_idl__
+#include <com/sun/star/drawing/XSlideSorterBase.idl>
+#endif
+
+module com {  module sun {  module star {  module drawing {
+
+
+/** A slide sorter shows previews for a set of slides, typically all slides
+    in a document, and allows the selection, reordering, creation, and
+    deletion of slides.
+    <p>In the drawing framework a slide sorter is regarded as a view.</p>
+*/
+service SlideSorter : XSlideSorterBase
+{
+    /** Create a new slide sorter object.
+        @param xViewId
+            The resource id of the new slide sorter.
+        @param xController
+            The access point to an impress document.
+        @param xParentWindow
+            The parent window which will be completely covered by the new
+            slide sorter.
+    */
+    create (
+        [in] framework::XResourceId xViewId,
+        [in] ::com::sun::star::frame::XController xController,
+        [in] ::com::sun::star::awt::XWindow xParentWindow);
+};
+
+}; }; }; };
+
+#endif

@@ -1,0 +1,2 @@
+ch comphelper : cppuhelper ucbhelper offapi vos salhelper LIBXSLT:libxslt NULL
+ch comphelper\prj nmake - all ch_all NULL

@@ -1,0 +1,2 @@
+ac  accessibility	:    L10N:l10n tools jurt offapi unoil vcl javaunohelper jvmaccess cppu sal toolkit svtools LIBXSLT:libxslt NULL
+ac	accessibility\prj                                      	nmake	-	all	ac_prj NULL

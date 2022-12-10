@@ -1,0 +1,2 @@
+ch	cppuhelper	:	BOOST:boost LIBXSLT:libxslt codemaker cppu offapi NULL
+ch	cppuhelper\prj							nmake	-	all	ch_prj NULL

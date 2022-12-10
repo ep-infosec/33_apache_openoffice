@@ -1,0 +1,2 @@
+inp  i18npool    :   bridges sax stoc comphelper ICU:icu i18nutil LIBXSLT:libxslt NULL
+inp  i18npool\prj                               nmake   -   all inp_prj NULL

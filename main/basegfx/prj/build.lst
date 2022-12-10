@@ -1,0 +1,2 @@
+fx	basegfx	:	o3tl sal offapi cppuhelper cppu NULL
+fx	basegfx\prj								nmake		-	all	fx_prj NULL
